@@ -1,0 +1,21 @@
+services:
+    nginx:
+        build:
+            context: ./Docker/nginx
+        volumes:
+            - ./App/build:/var/www/vue:cached
+        ports:
+            - 8880:80
+
+    node:
+        build:
+            context: .
+            dockerfile: ./Docker/node/Dockerfile
+            #target: app_node_prod
+        restart: unless-stopped
+        ports:
+            - "5173:5173"
+        volumes:
+            - ./App/:/srv/app
+        stdin_open: true
+        tty: true

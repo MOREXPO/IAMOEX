@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://iamoex.com/</loc>
+    <lastmod>2025-05-07</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://iamoex.com/about</loc>
+    <lastmod>2025-05-07</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://iamoex.com/project</loc>
+    <lastmod>2025-05-07</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://iamoex.com/resume</loc>
+    <lastmod>2025-05-07</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
