@@ -4,8 +4,6 @@ Bienvenido a mi portfolio personal donde muestro mis proyectos, habilidades téc
 
 🔗 [Ver online](https://iamoex.com)
 
-![Demo del sitio](./Images/preview.png)
-
 ---
 
 ## 🚀 Tecnologías utilizadas
