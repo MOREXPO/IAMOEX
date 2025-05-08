@@ -41,7 +41,7 @@ function Github() {
           "totalCount": "{{count}} contribuciones en {{year}} ",
           "legend": {
             "less": "Menos",
-            "more": "Mas"
+            "more": "Más"
           }
         }}
       />
