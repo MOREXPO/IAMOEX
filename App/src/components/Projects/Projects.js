@@ -108,7 +108,7 @@ function Projects() {
               title="Servidor de Medios con Docker"
               description="Servidor multimedia autohospedado con Docker usando Radarr, Sonarr, Lidarr, Bazarr, Prowlarr, Jellyfin, Jellyseerr, Ombi, Plex y qBittorrent, ideal para organizar contenido personal."
               ghLink="https://github.com/MOREXPO/media-server"
-              demoLink="https://cine.iamoex.com"
+              demoLink="https://tv.iamoex.com"
             />
           </Col>
 
