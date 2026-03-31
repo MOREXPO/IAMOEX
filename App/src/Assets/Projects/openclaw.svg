@@ -1,0 +1,25 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#1A1F3D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="220" y1="170" x2="420" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6E56FF"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="180" fill="#6E56FF" fill-opacity="0.15"/>
+  <circle cx="140" cy="550" r="220" fill="#22D3EE" fill-opacity="0.12"/>
+
+  <rect x="170" y="150" width="300" height="300" rx="36" fill="#111833" stroke="#2B356B" stroke-width="4"/>
+  <path d="M250 330C250 285.817 285.817 250 330 250C374.183 250 410 285.817 410 330" stroke="url(#accent)" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="330" cy="330" r="42" fill="url(#accent)"/>
+  <circle cx="330" cy="330" r="14" fill="#0B1020"/>
+
+  <text x="520" y="285" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700">OpenClaw</text>
+  <text x="520" y="355" fill="#A5B4FC" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500">Automation Platform</text>
+  <text x="520" y="410" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="26">Deployments · Cloudflare Tunnels · Monitoring</text>
+</svg>

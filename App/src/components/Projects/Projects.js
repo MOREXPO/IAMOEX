@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import analytics from "../../Assets/Projects/analytics.png";
+import openclaw from "../../Assets/Projects/openclaw.svg";
 import symfonyReact from "../../Assets/Projects/symfony-react.png";
 import iamon from "../../Assets/Projects/iamon.png";
 import wordpressDocker from "../../Assets/Projects/wordpress.png";
@@ -32,6 +33,17 @@ function Projects() {
               description="Mi portfolio personal construido con React, mostrando mis proyectos, habilidades y contacto. Utiliza animaciones y diseño responsive."
               ghLink="https://github.com/MOREXPO/IAMOEX"
               demoLink="https://iamoex.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={openclaw}
+              isBlog={false}
+              title="OpenClaw Automation Platform"
+              description="Sistema de automatización con OpenClaw para orquestar despliegues, túneles Cloudflare, monitorización de servicios y publicación de proyectos en múltiples dominios de iamoex.com."
+              ghLink="https://github.com/MOREXPO/iamoex-projects-dashboard"
+              demoLink="https://projects.iamoex.com"
             />
           </Col>
 
